@@ -13,8 +13,9 @@ func max(x, y int) int {
 func more(x, y int) bool {
 	if x > y {
 		return true
+	} else {
+		return false
 	}
-	return false
 }
 
 // If with precondition.
